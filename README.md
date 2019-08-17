@@ -18,3 +18,9 @@ r = fdb.get('say')
 r()
 
 ```
+
+输出
+
+```
+My name is xiaoming, I am 18 years old.
+```
