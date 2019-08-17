@@ -4,7 +4,7 @@
 
 可以用在 需要第三方回调触发服务端创建数据，因为某种原因又不想预创建的地方。
 
-'''python
+```python
 import fdb
 
 def hello(name, age):
@@ -17,4 +17,4 @@ r = fdb.get('say')
 
 r()
 
-'''
+```
